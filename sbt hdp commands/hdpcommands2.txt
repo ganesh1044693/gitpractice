@@ -1,0 +1,10 @@
+hadoop fs -ls /datasets/coursera
+
+/datasets/coursera/home_data.csv
+/datasets/coursera/home_data.csv
+/datasets/spark/streaming/order_analytics_project/order_data/part_1.csv
+
+
+hadoop jar /home/ganesh4ja2452/customwordcount.jar stockdatasummaryusingcustomvalue.StockDataSummary /user/ganesh4ja2452/stockdata.txt stockdatasummary	
+hadoop fs -copyToLocal /user/ganesh4ja2452/stockdatasummary10/part-r-00000 /home/ganesh4ja2452
+
