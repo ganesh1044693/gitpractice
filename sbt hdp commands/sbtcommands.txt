@@ -1,0 +1,27 @@
+-------------DB username and password----------------
+postgres
+uname:postgres
+password:abcdABCD12!!
+
+oracle
+uname:system
+password:abcdABCD12!!
+
+--------------github username and password --------------------
+uname:ganesh1044693
+password:abcdABCD78!!
+---------------------maven commands------------------------
+
+mvn clean package -Dmaven.test.skip=true
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar -Dfile=C:\Users\M1044693\Desktop\ojd\ojdbc6.jar 
+mvn deploy:deploy-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.3 -Durl=file:./local-maven-repo/ -DrepositoryId=local-maven-repo -DupdateReleaseInfo=true -Dfile=C:\Users\M1044693\Desktop\ojd\ojdbc6.jar
+
+
+---------------------------SBT COMMANDS-----------------------------------
+sbt clean compile publishLocal "set offline:=true" 
+sbt clean compile run "set offline:=true"   ----------node
+sbt clean compile "run 9001" "set offline:=true" --------client
+sbt "set offline:=true"  clean compile run -jvm-debug 10000 ---=---- TO DEBUG NODE
+sbt "set offline:=true" "run 9001" -jvm-debug 10001 -------- TO RUN CLIENT ON SOME PORT 
+
+
