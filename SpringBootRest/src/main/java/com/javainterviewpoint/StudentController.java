@@ -68,6 +68,23 @@ public class StudentController {
 		list = (List<Student>) studentRepository.findAll();
 		LOGGER.debug("list of students from the api "+list.toString());
 		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
+		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
 		return list;
 	}
 
