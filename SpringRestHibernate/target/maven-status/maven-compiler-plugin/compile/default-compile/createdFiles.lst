@@ -1,9 +1,0 @@
-com\javainterviewpoint\dao\StudentDAO.class
-com\javainterviewpoint\controller\SpringRestTemplateClient.class
-com\spring\rest\controller\CountryCtrl.class
-com\javainterviewpoint\controller\StudentController.class
-com\javainterviewpoint\dao\StudentDAOImpl.class
-com\javainterviewpoint\model\Student.class
-com\spring\rest\component\Country.class
-com\spring\rest\service\CountryServ.class
-com\spring\rest\repository\CountryDao.class
