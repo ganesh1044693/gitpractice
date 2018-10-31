@@ -31,6 +31,10 @@ public class StudentController
     @RequestMapping(value="/students", method = RequestMethod.GET)
     public List<Student> getAllStudents()
     {
+        System.out.println("confliting");
+        System.out.println("confliting");
+        System.out.println("confliting");
+        System.out.println("confliting");
         return (List<Student>)studentRepository.findAll();
     }
     
