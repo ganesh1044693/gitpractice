@@ -37,7 +37,15 @@ public class StudentController {
 		System.out.println("confliting");
         System.out.println("confliting");
         System.out.println("confliting");
-        System.out.println("confliting");	
+        System.out.println("confliting");
+		System.out.println("confliting");
+        System.out.println("confliting");
+        System.out.println("confliting");
+        System.out.println("confliting");
+		System.out.println("confliting");
+        System.out.println("confliting");
+        System.out.println("confliting");
+        System.out.println("confliting");
 		List<Student> list = null;
 		LOGGER.debug("entee into StudentController-getAllStudents() method ");
 		list = (List<Student>) studentRepository.findAll();
